@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "killtracker",
+  "version": "${version}",
+  "name": "KillTracker",
+  "description": "Client-side kill/death tracker with offline cache and Firebase sync.",
+  "authors": ["KillTracker Team"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "tracker.KillTracker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": ">=1.21 <=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
